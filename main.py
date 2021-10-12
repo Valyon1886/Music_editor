@@ -57,6 +57,10 @@ def initiate_of_shift():
         playsound(end_name+".wav")
     if(a == "No"):
         print("ЪуЪ  ((╬◣﹏◢╬))  ЪуЪ")
+
+    k=input("\nPress enter to exit")
+
+
 if __name__ == '__main__':
     initiate_of_shift()
 
