@@ -46,14 +46,14 @@ def initiate_of_shift():
 
     print('Do you wanna play it? (Yes/No)')
     a = input()
-    if(a=="Yes"):
+    if(a =="Yes") or (int(a) == 1):
         """
         print("Enter your file path: ")
         b = input()
         """
         print(" ♫•*¨*•.¸¸♪ (^_^♪) ")
         playsound(end_name+".wav")
-    if(a == "No"):
+    if(a == "No") or (int(a) == 0):
         print("ЪуЪ  ((╬◣﹏◢╬))  ЪуЪ")
 
     k=input("\nPress enter to exit")
