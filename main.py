@@ -1,8 +1,6 @@
 from Song import Sound
-import warnings
-from pydub.playback import play
 from playsound import playsound
-warnings.filterwarnings("ignore")
+
 
 
 def initiate_of_shift():
