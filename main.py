@@ -1,16 +1,24 @@
-# This is a sample Python script.
+import Song
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+def initiate_of_shift():
+
+    print(f'The program converts two audio files (of the same type into a single file)\n')
+    print(f'Enter the path to the first audio file:')
+    name1 = input()
+    print(f'Enter the start time of the first file:')
+    start_time1 = input()
+    print(f'Enter the end time of the first file:')
+    end_time1 = input()
+
+    print(f'Enter the path to the first audio file:')
+    name2 = input()
+    print(f'Enter the start time of the first file:')
+    start_time2 = input()
+    print(f'Enter the end time of the first file:')
+    end_time2 = input()
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    initiate_of_shift()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
